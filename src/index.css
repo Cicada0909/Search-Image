@@ -1,0 +1,17 @@
+:root {
+    --colors__white: #ffffff;
+    --colors__black: #3b3f3d;
+    --colors__green: #7aa899;
+    --colors__purple: #8b7aa8;
+    --colors__dark: #27263d;
+    --colors__gray: #6e6c78;
+    --colors__gray-extra: #f7f7f7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-size: 14px;
+}

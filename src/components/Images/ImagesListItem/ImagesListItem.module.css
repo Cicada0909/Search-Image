@@ -1,0 +1,6 @@
+.Card {
+    background-color: #1e1e1e !important;
+    color: aliceblue !important;
+    min-width: 27rem;
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.493) !important;
+}
