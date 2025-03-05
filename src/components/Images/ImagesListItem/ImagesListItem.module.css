@@ -3,4 +3,21 @@
     color: aliceblue !important;
     min-width: 27rem;
     box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.493) !important;
+    position: relative;
+}
+
+.card__btnDownload {
+    position: absolute;
+    z-index: 1;
+    right: 1%;
+    top: 2%;
+}
+
+.invisible {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
 }

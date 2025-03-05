@@ -24,7 +24,7 @@ import { useQuery } from '@tanstack/react-query'
 import { ModalWindow } from '../../Modal/ModalWindow'
 
 const ImagesList = () => {
-    const API_KEY = 'ваш API_KEY'
+    const API_KEY = Введите ваш API_KEY!!! ""
 
     const [search, setSearch] = useState('')
     const [images, setImages] = useState([])
@@ -146,6 +146,7 @@ const ImagesList = () => {
                     </MenuList>
                 </Paper>
             </div>
+
             <div className={styles.wrapper}>
                 <div className={styles.header}>
                     <div className={styles.header__search}>
@@ -209,6 +210,7 @@ const ImagesList = () => {
                                 key={item.id}
                                 {...item}
                                 pickImageDetails={() => imageDetails(item)}
+                                imageName={search}
                             />
                         ))}
                     {filteredImages &&
@@ -217,6 +219,7 @@ const ImagesList = () => {
                                 key={item.id}
                                 {...item}
                                 pickImageDetails={() => imageDetails(item)}
+                                imageName={search}
                             />
                         ))}
                 </div>
